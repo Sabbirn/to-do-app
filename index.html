@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>TO DO APP</title>
+    <link rel="icon" href="img/icon.png" />
+    <script
+      src="https://kit.fontawesome.com/78c10999a1.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="app-area">
+      <h1>To Do App 2024</h1>
+      <div class="add-task-area">
+        <form id="add-task">
+          <div class="form-group">
+            <input
+              type="text"
+              autocomplete="off"
+              placeholder="Your task name.."
+              id="task"
+            />
+            <button type="submit">Add Task</button>
+          </div>
+          <div id="errot-div"></div>
+        </form>
+      </div>
+      <div class="tasks-area">
+        <h2>My Task List</h2>
+        <div id="all-tasks"></div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
